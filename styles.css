@@ -1,0 +1,103 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0 auto;
+    width:960px;
+    }
+    h1, h2, h3 {
+    color:brown;
+    }
+    ul {
+        /*  Use coffee cup as bullet
+        Specify an image as the list-item marker in a list: */
+    list-style-image: url("images/tiny-coffee-cup.gif");
+    }
+    a:link, a:visited {
+    text-decoration:none;
+    color:brown;
+    font-weight:bold;
+    }
+    a:hover {
+    color:black;
+    }
+    nav ul {
+     /* specifies the type of list-item marker in a list. */
+    list-style-type:none;
+    padding:0;
+    }
+    nav li {
+        /*Display the line on the same line that is the use of inline */
+    display:inline;
+    float:left;
+    }
+    nav a:link, nav a:visited {
+    background-color:brown;
+    color:white;
+    display:block;
+    width:160px;
+    text-align:center;
+    padding: 10px 0;
+    }
+    nav a:hover {
+    background-color:black;
+    }
+    aside {
+    width:280px;
+    float:right;
+    background-color: tan;
+    text-align:center;
+    font-weight:bold;
+    padding:20px;
+    margin-left:20px;
+    }
+    .photo-left {
+    float:left;
+    margin-right:20px;
+    }
+    .photo-right {
+    float:right;
+    margin-left:20px;
+    }
+    header {
+    background-image: url("images/coffee-beans.jpg");
+    height:100px;
+    margin-bottom:70px;
+    }
+    header h1 {
+    color:rgba(256,256,256,.8);
+    margin-left:30px;
+    margin-top:30px;
+    font-size:50px;
+    }
+    footer {
+    margin: 40px 0;
+    }
+    footer nav a:link, footer nav a:visited {
+    color:gray;
+    text-decoration:none;
+    display:block;
+    width:160px;
+    text-align:center;
+    background-color:white;
+    }
+    footer nav a:hover {
+    color:black;
+    }
+    td, th {
+    border:1px solid black;
+    width:20%;
+    text-align:center;
+    padding:5px;
+    }
+    table {
+    border-collapse:collapse;
+    }
+    video {
+    margin-bottom: 20px;
+    margin-left: 160px;
+    /* The filter property defines visual effects (like blur and saturation) to an element (often <img>).
+    Depending on the browser different property name is used eg: mozfilter is for firefox webkit is for safari 
+    and just filter for chrome  */
+    -webkit-filter: grayscale(100%);
+    -moz-filter: grayscale(100%);
+    filter: grayscale(100%);
+    }
