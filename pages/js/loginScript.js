@@ -12,7 +12,7 @@ document.getElementById('loginForm').addEventListener('submit', function (event)
   var password = document.getElementById('password').value;
 
   if (username === 'user' && password === 'password') {
-    alert('Login successful!');
+    alert('Login successful! Press ctrl + e to toggle edit mode');
     // Retrieve the previous page URL from sessionStorage and navigate to it after successful login
     var prevPage = sessionStorage.getItem('prevPage');
     if (prevPage) {
