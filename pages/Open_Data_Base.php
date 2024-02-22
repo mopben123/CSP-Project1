@@ -1,6 +1,6 @@
 <?php
 #Connection Values
-$servername = "millard";
+$servername = "localhost";
 $username = "root";
 $password = "123456"; 
 $dbname = "Team_4_DB"
